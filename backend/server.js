@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'public/images')));
 
 
 
-mongoose.connect('mongodb+srv://nitin_123:nitin@123@cluster0.x2gkl.mongodb.net/uploadimage', {
+mongoose.connect('mongodb://localhost:27017/uploadImage', {
     useNewUrlParser: true,
     useUnifiedTopology: true
   });
