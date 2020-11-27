@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  background-image: linear-gradient(to right, #3970d6, #a4f3ff);
+}
+
+.App > h1 {
+  color: rgba(255, 255, 255, 0.8);
+}

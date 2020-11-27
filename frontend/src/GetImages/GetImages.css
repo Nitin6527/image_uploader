@@ -1,0 +1,16 @@
+.GetImages_container > h1 {
+  color: rgba(255, 255, 255, 0.8);
+}
+.all_images {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+}
+
+.get_images {
+  height: 20rem;
+  width: 20rem;
+  margin: 20px;
+  border-radius: 10px;
+}

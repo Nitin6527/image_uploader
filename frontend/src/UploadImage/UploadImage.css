@@ -1,0 +1,63 @@
+.image_upload_container {
+  margin-top: 2rem;
+  display: block;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.button_container {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+}
+
+.image_preview {
+  height: 400px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.button > .link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button > .link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.button {
+  height: 40px;
+  width: 15rem;
+  border-radius: 5px;
+  border: none;
+  margin: 40px;
+  background-color: rgb(255, 255, 255, 0.3);
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.submit {
+  margin: 20px 42%;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+  transition: 1s;
+  cursor: pointer;
+}
