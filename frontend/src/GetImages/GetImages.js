@@ -7,7 +7,7 @@ function GetImages() {
 const [images , setImages] = useState([]);
 const [preview, setPreview] = useState();
 
-const baseUrl='https://blooming-castle-42959.herokuapp.com/'
+const baseUrl='http://127.0.0.1:5000/'
     useEffect(() => {
         async function fetchData() {
           const request =await axios.get('/getImages');
